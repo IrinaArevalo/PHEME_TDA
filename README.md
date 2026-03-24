@@ -20,8 +20,8 @@ Each thread consists of a source tweet and a set of replies (tree structure).
 The main pipeline consists of the following steps:
 
 1. Preprocessing
-	* Parse raw PHEME threads into a tabular format
-	* Extract relevant fields:
+* Parse raw PHEME threads into a tabular format
+* Extract relevant fields:
 	* thread_id
 	* tweet_id
 	* user_id
