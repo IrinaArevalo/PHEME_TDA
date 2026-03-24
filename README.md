@@ -10,8 +10,8 @@ The goal of this project is to study whether rumors and non-rumors exhibit diffe
 
 We use the PHEME dataset, available at https://figshare.com/articles/dataset/PHEME_dataset_of_rumours_and_non-rumours/4010619?file=6453753, 
 which contains conversation threads from Twitter labeled as
-	* rumour
-	* non-rumour
+* rumour
+* non-rumour
 
 Each thread consists of a source tweet and a set of replies (tree structure).
 
