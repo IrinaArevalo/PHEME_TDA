@@ -4,20 +4,14 @@ This repository contains code for analyzing the structure of rumor and non-rumor
 
 ## Overview
 
-The goal of this project is to study whether rumors and non-rumors exhibit different structural patterns in how they spread through conversation threads.
-
-We model each thread as a graph and apply tools from TDA, particularly persistent homology, to extract features describing:
-	•	Connectivity dynamics (H_0)
-	•	Higher-order structures (H_1)
-
-We then evaluate whether these features differ statistically between rumors and non-rumors.
+The goal of this project is to study whether rumors and non-rumors exhibit different structural patterns in how they spread through conversation threads and evaluate their statistical significance.
 
 ## Dataset
 
 We use the PHEME dataset, available at https://figshare.com/articles/dataset/PHEME_dataset_of_rumours_and_non-rumours/4010619?file=6453753, 
-which contains conversation threads from Twitter labeled as:
-	•	rumour
-	•	non-rumour
+which contains conversation threads from Twitter labeled as
+	* rumour
+	* non-rumour
 
 Each thread consists of a source tweet and a set of replies (tree structure).
 
