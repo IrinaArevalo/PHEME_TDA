@@ -12,7 +12,7 @@ We model each thread as a graph and apply tools from TDA, particularly persisten
 
 We then evaluate whether these features differ statistically between rumors and non-rumors.
 
-##Dataset
+## Dataset
 
 We use the PHEME dataset, available at https://figshare.com/articles/dataset/PHEME_dataset_of_rumours_and_non-rumours/4010619?file=6453753, 
 which contains conversation threads from Twitter labeled as:
