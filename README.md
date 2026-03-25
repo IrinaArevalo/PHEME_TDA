@@ -19,7 +19,7 @@ Each thread consists of a source tweet and a set of replies (tree structure).
 
 The main pipeline consists of the following steps:
 
-1. Preprocessing
+1. Preprocessing (data_generation.ipynb)
 * Parse raw PHEME threads into a tabular format
 * Extract relevant fields:
 	* thread_id
@@ -29,8 +29,9 @@ The main pipeline consists of the following steps:
 	* in_reply_to_status_id
 	* label, event
 
-2. Graph construction
-WIP
+2. Statict graph construction and Mapper application (static_analysis.ipynb)
+
+3. Statistical analysis (statistical_analysis.ipynb)
 
 [...]
 
